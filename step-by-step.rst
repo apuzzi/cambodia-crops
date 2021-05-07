@@ -63,7 +63,7 @@ Follow these instructions to answer the questions for each plot:
 
 |
 
-- You should use the 2019-12_2020_05 monthly mosaic (But also use the MapBox Satellite, and UMD Tree Cover basemaps to assist you).
+- You should use the 2019-12_2020_05 monthly mosaic (But also use the MapBox Satellite, Bing Maps, and UMD Tree Cover basemaps to assist you).
 
 .. figure:: images/planet2.png
 
@@ -89,7 +89,7 @@ Follow these instructions to answer the questions for each plot:
 
 |
 
-a. If the boundary is correct, answer Yes and jump to instruction 3. below.
+a. If the boundary is correct, answer Yes and jump to instruction 4. below.
 b. If the boundary is not correct, you can use the new "proactive sampling" feature. Click on the pencil icon below "Survey Questions".
 
   .. figure:: images/pencil.png
@@ -102,22 +102,42 @@ b. If the boundary is not correct, you can use the new "proactive sampling" feat
     
 |
 
-  - Add a new polygon with the correct boundary by selecting "Polygon tool" and using your mouse to drawn it. Each click will place vertice. 
+  - Add a new polygon with the correct boundary by selecting "Polygon tool" and using your mouse to drawn it. Each click will place a vertice. 
   
     **Note**: You cannot edit the existing plot since this tool is made to edit the sample (point) and not the plot (polygon)
+  
+  .. figure:: images/pencil3.png
+  
+| 
+
+  .. figure:: images/edit.png
+  
+|
+
+  .. figure:: images/edit2.png
+  
+|
 
   - Click on the question mark button (?) to go save changes and go back to the survey question.
+
+  .. figure:: images/edit3.png
+  
+|
 
   - Click on the point on the center and select No as the answer.
   
   - Click on the newly drawn polygon and select Yes as the answer.
   
-4. Answer the following question "Is this broadleaf tree crop?". Look into the different Imagery options and select Yes, No, or Unsure. Don't worry about specifying which type of broadleaf tree crop it is.
+  .. figure:: images/gif1.gif
+  
+|
+  
+4. Answer the following question "Is this broadleaf tree crop?". Look into the different Imagery options and select Yes, No, or Unsure. Don't worry about specifying which type of broadleaf tree crop it is (e.g.: mango, cashew, etc).
 
 5. Add notes to the box below "Describe issues if any". 
 
 a. If you answered Yes to both questions, just add a zero or any character in the box to be able to proceed.
-b. If you answered No to any of the questions, explain here why you answered No. (this is a good place to specify the crop type if you answered No to the second question).
+b. If you answered No to any of the questions, explain here why you answered No. (this is a good place to specify the crop type if you answered No to the second question - e.g.: if it's broadleaf tree crop, annual crop, etc).
 c. Make sure you click Save.
 
 6. Add a confidence level on the "Plot Confidence" feature. This is an overall assessment covering both questions. Just estimate how much confident you were (0-100%) in answering the questions including editing the polygon if you had to. 
