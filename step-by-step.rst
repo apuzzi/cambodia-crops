@@ -2,7 +2,7 @@
 Cambodia crop plots assessment
 ------------------------------
 
-You will be doing a quality assessment of the reference data collected that will serve as the input for the Cambodia crop mapping model. High quality data yields a high performance model.
+You will be doing a quality assessment of the reference data collected that will serve as the input for the Cambodia crop mapping model. High quality data yields a high performance model
 
 Getting Started
 ---------------
