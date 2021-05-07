@@ -11,25 +11,25 @@ Getting Started
 
 .. _Collect Earth Online: https://collect.earth
 
-.. image:: images/ceo.png
+.. figure:: images/ceo.png
 
 |
 
 2. Go to the ``Cambodia Crop Mapping`` institution. You can look under "Your Affiliations" or search the institution using the search bar at the top. Click on ``Visit`` next to the institution.
 
-.. image:: images/visit.png
+.. figure:: images/visit.png
 
 |
 
 3. On the institution page, click on your project. Either "Cambodia crops quality assessment - Broadleaf tree crops 1" or "Cambodia crops quality assessment - Broadleaf tree crops 2".
 
-.. image:: images/project.png
+.. figure:: images/project.png
 
 |
 
 4. Go to the first plot to start the assessment. 
 
-.. image:: images/firstplot.png
+.. figure:: images/firstplot.png
 
 |
 
@@ -49,56 +49,56 @@ Follow these instructions to answer the questions for each plot:
 
 1. Expand the "Plot information" field to get information about the specific plot. You can check the crop type - this information will be useful to answer the second question of the survey.
 
-.. image:: images/plotinfo.png
+.. figure:: images/plotinfo.png
 
 |
 
-.. image:: images/plotinfo2.png
+.. figure:: images/plotinfo2.png
 
 |
 
 2. Make sure to use the Planet NICFI data under "Imagery Options".
 
-.. image:: images/planet.png
+.. figure:: images/planet.png
 
 |
 
 - You should use the 2019-12_2020_05 monthly mosaic (But also use the MapBox Satellite, and UMD Tree Cover basemaps to assist you).
 
-.. image:: images/planet2.png
+.. figure:: images/planet2.png
 
 |
 
 - Make sure you click on Update Map when changing the mosaic.
 
-.. image:: images/planet3.png
+.. figure:: images/planet3.png
 
 |
 
-2. In order to answer the first question "Is the polygon boundary correct?": 
+3. In order to answer the first question "Is the polygon boundary correct?": 
 
 - Analyze if the polygon boundaries are mismatching the actual crop field boundaries. An example is below:
 
-.. image:: images/eg1.png
+.. figure:: images/eg1.png
 
 |
 
 - Check if any shrubland or other type of land is within the crop field field. An example is below:
 
-.. image:: images/eg2.png
+.. figure:: images/eg2.png
 
 |
 
 a. If the boundary is correct, answer Yes and jump to instruction 3. below.
 b. If the boundary is not correct, you can use the new "proactive sampling" feature. Click on the pencil icon below "Survey Questions".
 
-  .. image:: images/pencil.png
+  .. figure:: images/pencil.png
   
 |
 
   - The instructions to edit the sample will show up. Read the instructions to make sure you understand them.
   
-  .. image:: images/pencil2.png
+  .. figure:: images/pencil2.png
     
 |
 
@@ -112,17 +112,17 @@ b. If the boundary is not correct, you can use the new "proactive sampling" feat
   
   - Click on the newly drawn polygon and select Yes as the answer.
   
-3. Answer the following question "Is this broadleaf tree crop?". Look into the different Imagery options and select Yes, No, or Unsure. Don't worry about specifying which type of broadleaf tree crop it is.
+4. Answer the following question "Is this broadleaf tree crop?". Look into the different Imagery options and select Yes, No, or Unsure. Don't worry about specifying which type of broadleaf tree crop it is.
 
-4. Add notes to the box below "Describe issues if any". 
+5. Add notes to the box below "Describe issues if any". 
 
 a. If you answered Yes to both questions, just add a zero or any character in the box to be able to proceed.
 b. If you answered No to any of the questions, explain here why you answered No. (this is a good place to specify the crop type if you answered No to the second question).
 c. Make sure you click Save.
 
-5. Add a confidence level on the "Plot Confidence" feature. This is an overall assessment covering both questions. Just estimate how much confident you were (0-100%) in answering the questions including editing the polygon if you had to. 
+6. Add a confidence level on the "Plot Confidence" feature. This is an overall assessment covering both questions. Just estimate how much confident you were (0-100%) in answering the questions including editing the polygon if you had to. 
 
-6. Click Save to proceed to the next plot.
+7. Click Save to proceed to the next plot.
 
 Contact
 -------
