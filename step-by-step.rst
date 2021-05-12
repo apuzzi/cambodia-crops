@@ -4,6 +4,8 @@ Cambodia crop plots assessment
 
 You will be doing a quality assessment of the reference data collected that will serve as the input for the Cambodia crop mapping model. High quality data yields a high performance model.
 
+We will be focusing on assessing data there were classified as broadleaf tree crops. Broadleaf tree crops can be defined as groves or orchards of trees (fruit- or nut-producing trees) grown for economic or environmental benefit. For our case, in Cambodia, we are focusing mainly on cashew, mango, longan, rambutan, durian, and orange.
+
 Getting Started
 ---------------
 
@@ -15,7 +17,7 @@ Getting Started
 
 |
 
-2. Go to the ``Cambodia Crop Mapping`` institution. You can look under "Your Affiliations" or search the institution using the search bar at the top. Click on ``Visit`` next to the institution.
+2. Go to the **Cambodia Crop Mapping** institution. You can look under "Your Affiliations" or search the institution using the search bar at the top. Click on **Visit** next to the institution.
 
 .. figure:: images/visit.png
 
@@ -131,6 +133,12 @@ b. If the boundary is not correct, you can use the new "proactive sampling" feat
   .. figure:: images/gif1.gif
   
 |
+
+  - If you need to fix a vertice, go back to the pen icon. You can hold ctrl and click a vertice to drag and fix it. Note that you can move vertices but you cannot add or remove vertices, for that, you will need to delete the entire polygon and start over.
+  
+  .. figure:: images/gif2.gif
+
+|
   
 4. Answer the following question "Is this broadleaf tree crop?". Look into the different Imagery options and select Yes, No, or Unsure. Don't worry about specifying which type of broadleaf tree crop it is (e.g.: mango, cashew, etc).
 
@@ -143,6 +151,16 @@ c. Make sure you click Save.
 6. Add a confidence level on the "Plot Confidence" feature. This is an overall assessment covering both questions. Just estimate how much confident you were (0-100%) in answering the questions including editing the polygon if you had to. 
 
 7. Click Save to proceed to the next plot.
+
+8. If you wish to change answers from previously analyzed plots, at the top of your project you can change the "Navigate Through" from "Unanalyzed plots" to "All analyzed plots". By clicking "Go to first plot", you will go through the plots you have already analyzed. You can change your answers but make sure you click Save at the bottom to save any changes.
+
+  .. figure:: images/analyzed.png
+  
+|
+
+  .. figure:: images/analyzed2.png
+  
+|
 
 Contact
 -------
