@@ -120,6 +120,12 @@ b. If the boundary is not correct, you can use the new "proactive sampling" feat
   
 |
 
+    **Note**: To move around the screen (pan) in the editing mode, make sure you do it by holding the click, otherwise, any click will place a new vertice. Also use the scroll wheel of your mouse to zoom in and out the screen - this will help you in editing mode.
+    
+    .. figure:: images/gif3.gif
+
+|
+  
   - Click on the question mark button (?) to go save changes and go back to the survey question.
 
   .. figure:: images/edit3.png
