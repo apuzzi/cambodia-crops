@@ -1,0 +1,503 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>2. Additional data collection &#8212; Cambodia crop data collection  documentation</title>
+    
+  <link href="_static/css/theme.css" rel="stylesheet" />
+  <link href="_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
+
+    
+  <link rel="stylesheet"
+    href="_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" href="_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+  <link rel="preload" as="script" href="_static/js/index.1c5a1a01449ed65a7b51.js">
+
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/language_data.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="1. Plots assessment" href="step-by-step.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+    
+      
+      <link rel="icon" sizes="16x16" href="_static/favicon-16x16.png">
+      
+    
+      
+      <link rel="icon" sizes="32x32" href="_static/favicon-32x32.png">
+      
+    
+      
+      <link rel="apple-touch-icon" sizes="180x180" href="_static/apple-touch-icon-180x180.png">
+      
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+    <nav class="navbar navbar-light navbar-expand-lg bg-light fixed-top bd-navbar" id="navbar-main"><div class="container-xl">
+
+  <div id="navbar-start">
+    
+    
+
+<a class="navbar-brand" href="index.html">
+  <img src="_static/sig-signal.png" class="logo" alt="logo">
+</a>
+
+
+    
+  </div>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapsible" aria-controls="navbar-collapsible" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  
+  <div id="navbar-collapsible" class="col-lg-9 collapse navbar-collapse">
+    <div id="navbar-center" class="mr-auto">
+      
+      <div class="navbar-center-item">
+        <ul id="navbar-main-elements" class="navbar-nav">
+    <li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="step-by-step.html">
+  1. Data assessment
+ </a>
+</li>
+
+<li class="toctree-l1 current active nav-item">
+ <a class="current reference internal nav-link" href="#">
+  2. Additional data collection
+ </a>
+</li>
+
+    
+</ul>
+      </div>
+      
+    </div>
+
+    <div id="navbar-end">
+      
+      <div class="navbar-end-item">
+        <ul id="navbar-icon-links" class="navbar-nav" aria-label="Icon Links">
+        <li class="nav-item">
+          <a class="nav-link" href="https://github.com/sig-gis-training" rel="noopener" target="_blank" title="GitHub">
+            <span><i class="fab fa-github-square"></i></span>
+            <label class="sr-only">GitHub</label>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://twitter.com/sig_gis" rel="noopener" target="_blank" title="Twitter">
+            <span><i class="fab fa-twitter-square"></i></span>
+            <label class="sr-only">Twitter</label>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.youtube.com/channel/UC6Q-D9k-vP08-y9PS6AILWg" rel="noopener" target="_blank" title="YouTube">
+            <span><i class="fab fa-youtube-square"></i></span>
+            <label class="sr-only">YouTube</label>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.linkedin.com/company/spatial-informatics-group-llc/" rel="noopener" target="_blank" title="LinkedIn">
+            <span><i class="fab fa-linkedin"></i></span>
+            <label class="sr-only">LinkedIn</label>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.facebook.com/Spatial.Informatics.Group/" rel="noopener" target="_blank" title="Facebook">
+            <span><i class="fab fa-facebook-square"></i></span>
+            <label class="sr-only">Facebook</label>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.instagram.com/spatial_informatics_group/" rel="noopener" target="_blank" title="Instagram">
+            <span><i class="fab fa-instagram-square"></i></span>
+            <label class="sr-only">Instagram</label>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://sig-gis.com" rel="noopener" target="_blank" title="SIG Homepage">
+            <span><i class="fas fa-home"></i></span>
+            <label class="sr-only">SIG Homepage</label>
+          </a>
+        </li>
+      </ul>
+      </div>
+      
+    </div>
+  </div>
+</div>
+    </nav>
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+            
+            <!-- Only show if we have sidebars configured, else just a small margin  -->
+            <div class="col-12 col-md-3 bd-sidebar"><form class="bd-search d-flex align-items-center" action="search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search the docs ..." aria-label="Search the docs ..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+  <div class="bd-toc-item active">
+    
+  </div>
+</nav>
+            </div>
+            
+          
+
+          
+          <div class="d-none d-xl-block col-xl-2 bd-toc">
+            
+              
+              <div class="toc-item">
+                
+<div class="tocsection onthispage pt-5 pb-3">
+    <i class="fas fa-list"></i> On this page
+</div>
+
+<nav id="bd-toc-nav">
+    <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#getting-started">
+   2.1. Getting Started
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#instructions-for-each-plot">
+   2.2. Instructions for each plot
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#contact">
+   2.3. Contact
+  </a>
+ </li>
+</ul>
+
+</nav>
+              </div>
+              
+              <div class="toc-item">
+                
+              </div>
+              
+            
+          </div>
+          
+
+          
+          
+            
+          
+          <main class="col-12 col-md-9 col-xl-7 py-md-5 pl-md-5 pr-md-4 bd-content" role="main">
+              
+              <div>
+                
+  <div class="section" id="additional-data-collection">
+<h1><span class="section-number">2. </span>Additional data collection<a class="headerlink" href="#additional-data-collection" title="Permalink to this headline">¶</a></h1>
+<p>You will collect more crop data - we aim to improve the performance of our model.</p>
+<p>We will focus on broader classes, so don’t worry about identifying specific crop types. These broader classes are:</p>
+<ul class="simple">
+<li><p>Broadleaf tree crops (Cashew, Mango, Longan, Rambutan, Durian, Orange)</p></li>
+<li><p>Palm crops (Coconut, Oil Palm, Other Palm including Banana and Date Palm)</p></li>
+<li><p>Shrub Crops (Pepper, Other Shrubs)</p></li>
+<li><p>Annual Crops (Cassava, Maize, Bean, Rice, Sugarcane, Vegetables)</p></li>
+<li><p>Other (Settlement, Water body, Rubber, Forest cover, Grassland, Shrubland, Other)</p></li>
+</ul>
+<p>We have three projects in CEO, one for Tbong Khmun, one for Kampong Cham, and one for Kampong Sveu. Each project has six 4 by 4 km plots.</p>
+<div class="section" id="getting-started">
+<h2><span class="section-number">2.1. </span>Getting Started<a class="headerlink" href="#getting-started" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic simple">
+<li><p>Login to <a class="reference external" href="https://collect.earth">Collect Earth Online</a>.</p></li>
+</ol>
+<div class="figure align-default">
+<img alt="_images/ceo.png" src="_images/ceo.png" />
+</div>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple" start="2">
+<li><p>Go to the <strong>Cambodia Crop Mapping</strong> institution. You can look under “Your Affiliations” or search the institution using the search bar at the top. Click on <strong>Visit</strong> next to the institution.</p></li>
+</ol>
+<div class="figure align-default">
+<img alt="_images/visit.png" src="_images/visit.png" />
+</div>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple" start="3">
+<li><p>On the institution page, click on your project. Either “Cambodia crops additional data collection - Kampong Cham” or “Cambodia crops additional data collection - Kampong Sveu”, or “Cambodia crops additional data collection - Tbong Khmun.</p></li>
+</ol>
+<div class="figure align-default">
+<img alt="_images/project.png" src="_images/project.png" />
+</div>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple" start="4">
+<li><p>Go to the first plot to start the collection.</p></li>
+</ol>
+<div class="figure align-default">
+<img alt="_images/firstplot2.png" src="_images/firstplot2.png" />
+</div>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+</div>
+<div class="section" id="instructions-for-each-plot">
+<h2><span class="section-number">2.2. </span>Instructions for each plot<a class="headerlink" href="#instructions-for-each-plot" title="Permalink to this headline">¶</a></h2>
+<p>You will hand digitize polygons for the classes mentioned above. Every time you add a polygon using the proactive sampling tool, you will have to assign a class to it following a class scheme (number) that will be shown below. You will also have the option to add any relevant notes regarding that polygon.</p>
+<table class="table">
+<colgroup>
+<col style="width: 72%" />
+<col style="width: 28%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p>Class</p></td>
+<td><p>Number</p></td>
+</tr>
+<tr class="row-even"><td><p>Broadleaf tree crop</p></td>
+<td><p>1</p></td>
+</tr>
+<tr class="row-odd"><td><p>Palm crop</p></td>
+<td><p>2</p></td>
+</tr>
+<tr class="row-even"><td><p>Shrub crop</p></td>
+<td><p>3</p></td>
+</tr>
+<tr class="row-odd"><td><p>Annual crop</p></td>
+<td><p>4</p></td>
+</tr>
+<tr class="row-even"><td><p>Other</p></td>
+<td><p>5</p></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Note</strong>: In CEO, the plot boundary is considered a “plot”, and the polyons to be drawn within the plot are considered the “sample”.</p>
+<p>Follow these instructions:</p>
+<ol class="arabic simple">
+<li><p>Pick a corner or specific area to start.  E.g.: top left corner, or a contiguous patch of same class.</p></li>
+</ol>
+<div class="figure align-default">
+<img alt="_images/topleftcorner.png" src="_images/topleftcorner.png" />
+</div>
+<ol class="arabic simple" start="2">
+<li><p>To start collecting the polygons, under “Survey Questions”, click on the pencil icon below “Survey Questions”.</p></li>
+</ol>
+<div class="figure align-default">
+<img alt="_images/surveyquestions.png" src="_images/surveyquestions.png" />
+</div>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<ul class="simple">
+<li><p>The instructions to edit the sample will show up. Read the instructions to make sure you understand them.</p></li>
+</ul>
+<div class="figure align-default">
+<img alt="_images/pencilinstruc.png" src="_images/pencilinstruc.png" />
+</div>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple" start="3">
+<li><p>Add a new polygon to the respective area by selecting “Polygon tool” and using your mouse to drawn it. Each click will place a vertice.</p></li>
+</ol>
+<div class="figure align-default">
+<img alt="_images/pencil3.png" src="_images/pencil3.png" />
+</div>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<div class="figure align-default">
+<img alt="_images/edit.png" src="_images/edit.png" />
+</div>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<div class="figure align-default">
+<img alt="_images/edit2.png" src="_images/edit2.png" />
+</div>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p><strong>Note</strong>: To move around the screen (pan) in the editing mode, make sure you do it by holding the click, otherwise, any click will place a new vertice. Also use the scroll wheel of your mouse to zoom in and out the screen - this will help you in editing mode.</p>
+<div class="figure align-default">
+<img alt="_images/gif3.gif" src="_images/gif3.gif" />
+</div>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p><strong>Note</strong>: If you need to fix a vertice after you finalized your polygon, you can hold ctrl and click a vertice to drag and fix it. Note that you can move vertices but you cannot add or remove vertices, for that, you will need to delete the entire polygon and start over.</p>
+<div class="figure align-default">
+<img alt="_images/gif2.gif" src="_images/gif2.gif" />
+</div>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple" start="4">
+<li><p>Once you are done with the first polygon, zoom out and find the centroid point of the plot. Hold CTRL and right-click the point to delete it.</p></li>
+</ol>
+<div class="figure align-default">
+<img alt="_images/deletept.png" src="_images/deletept.png" />
+</div>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<div class="figure align-default">
+<img alt="_images/deletept2.png" src="_images/deletept2.png" />
+</div>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple" start="5">
+<li><p>Click on the question mark button (?) to go back to the survey question.</p></li>
+</ol>
+<div class="figure align-default">
+<img alt="_images/surveyback.png" src="_images/surveyback.png" />
+</div>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple" start="6">
+<li><p>Click on the newly drawn polygon, add the class number to the answer, and then click the Save button right next to it.</p></li>
+</ol>
+<div class="figure align-default">
+<img alt="_images/addclass.png" src="_images/addclass.png" />
+</div>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple" start="7">
+<li><p>Add any notes that might be relevant. If none, you can add a “0” and click Save next to it.</p></li>
+<li><p>Go back to add more polygons and repeat the process.</p></li>
+</ol>
+<div class="figure align-default">
+<img alt="_images/surveyquestions.png" src="_images/surveyquestions.png" />
+</div>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<dl class="simple">
+<dt>Make sure you use the basemap imagery available in your project:</dt><dd><ul class="simple">
+<li><p>Planet mosaics (Focus on 2019-12_2020_05 monthly mosaic)</p></li>
+<li><p>UMD Tree canopy basemaps,</p></li>
+<li><p>Bing Maps</p></li>
+</ul>
+</dd>
+</dl>
+</div>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple" start="9">
+<li><p>Once you are done with all the polygons in this plot, Click Save to proceed to the next plot.</p></li>
+</ol>
+<div class="figure align-default">
+<img alt="_images/save.png" src="_images/save.png" />
+</div>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p>Make sure you cover all area of the plot, i.e., try to not leave any spaces between the polygons. You can start a new polygon by clicking on the vertice of an existing polygon (your mouse should be automatically “be attracted” to a vertice).</p>
+<div class="figure align-default">
+<img alt="_images/newp1.png" src="_images/newp1.png" />
+</div>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<div class="figure align-default">
+<img alt="_images/newp2.png" src="_images/newp2.png" />
+</div>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<div class="figure align-default">
+<img alt="_images/newp3.png" src="_images/newp3.png" />
+</div>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p><strong>Note</strong>: If you wish to change or review previously analyzed plots, at the top of your project you can change the “Navigate Through” from “Unanalyzed plots” to “All analyzed plots”. By clicking “Go to first plot”, you will go through the plots you have already analyzed. You can change your answers but make sure you click Save at the bottom to save any changes.</p>
+<div class="figure align-default">
+<img alt="_images/analyzed.png" src="_images/analyzed.png" />
+</div>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<div class="figure align-default">
+<img alt="_images/analyzed2.png" src="_images/analyzed2.png" />
+</div>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+</div>
+<div class="section" id="contact">
+<h2><span class="section-number">2.3. </span>Contact<a class="headerlink" href="#contact" title="Permalink to this headline">¶</a></h2>
+<p>We know the process might not be entirely straightforward, so if you have any questions we will be happy to help! We have done this ourselves and understand the doubts that might arise. Please contact <a class="reference external" href="mailto:apnicolau&#37;&#52;&#48;sig-gis&#46;com">apnicolau<span>&#64;</span>sig-gis<span>&#46;</span>com</a>, <a class="reference external" href="mailto:kdyson&#37;&#52;&#48;sig-gis&#46;com">kdyson<span>&#64;</span>sig-gis<span>&#46;</span>com</a>, and <a class="reference external" href="mailto:ktenneson&#37;&#52;&#48;sig-gis&#46;com">ktenneson<span>&#64;</span>sig-gis<span>&#46;</span>com</a> for support.</p>
+</div>
+</div>
+
+
+              </div>
+              
+              
+              <div class='prev-next-bottom'>
+                
+    <a class='left-prev' id="prev-link" href="step-by-step.html" title="previous page"><span class="section-number">1. </span>Plots assessment</a>
+
+              </div>
+              
+          </main>
+          
+
+      </div>
+    </div>
+  
+  <script src="_static/js/index.1c5a1a01449ed65a7b51.js"></script>
+
+  <footer class="footer mt-5 mt-md-0">
+  <div class="container">
+    
+    <div class="footer-item">
+      <p class="copyright">
+    &copy; Copyright 2021, Spatial Informatics Group LLC.<br/>
+</p>
+    </div>
+    
+    <div class="footer-item">
+      <p class="sphinx-version">
+Created using <a href="http://sphinx-doc.org/">Sphinx</a> 3.2.1.<br/>
+</p>
+    </div>
+    
+  </div>
+</footer>
+  </body>
+</html>

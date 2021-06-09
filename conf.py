@@ -18,7 +18,7 @@ import pydata_sphinx_theme
 
 # -- Project information -----------------------------------------------------
 
-project = 'Cambodia crop plots assessment'
+project = 'Cambodia crop data collection'
 copyright = '2021, Spatial Informatics Group LLC'
 author = 'Andrea Nicolau'
 
@@ -48,7 +48,7 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 html_theme = "pydata_sphinx_theme"
 
 # Add SIG logo
-html_logo = "_static/sig.png"
+html_logo = "_static/sig-signal.png"
 
 # Add links to social media
 html_theme_options = {
@@ -89,6 +89,23 @@ html_theme_options = {
             "icon": "fas fa-home",
         },        
     ],
+    "favicons": [
+      {
+         "rel": "icon",
+         "sizes": "16x16",
+         "href": "favicon-16x16.png",
+      },
+      {
+         "rel": "icon",
+         "sizes": "32x32",
+         "href": "favicon-32x32.png",
+      },
+      {
+         "rel": "apple-touch-icon",
+         "sizes": "180x180",
+         "href": "apple-touch-icon-180x180.png"
+      },
+   ]
 #    "collapse_navigation": True
 }
 
