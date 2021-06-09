@@ -10,9 +10,9 @@ We will focus on broader classes, so don't worry about identifying specific crop
 * Palm crops (Coconut, Oil Palm, Other Palm including Banana and Date Palm)
 * Shrub Crops (Pepper, Other Shrubs)
 * Annual Crops (Cassava, Maize, Bean, Rice, Sugarcane, Vegetables)
-* Other (Settlement, Water body, Rubber, Forest cover, Grassland, Shrubland, Other)
+* Other (Settlement, Water body, Rubber, Forest cover, Grassland, Shrubland, Other) - you will not collect data for this class.
 
-We have three projects in CEO, one for Tbong Khmun, one for Kampong Cham, and one for Kampong Sveu. Each project has six 4 by 4 km plots.
+We have three projects in CEO, one for Tbong Khmun, one for Kampong Cham, and one for Kampong Sveu. Each project has six 4 by 4 km plots that were further split into sixteen 1 by 1 km squares. This is to prevent losing data during the collection in CEO.
 
 Getting Started
 ---------------
@@ -33,7 +33,7 @@ Getting Started
 
 3. On the institution page, click on your project. Either "Cambodia crops additional data collection - Kampong Cham" or "Cambodia crops additional data collection - Kampong Sveu", or "Cambodia crops additional data collection - Tbong Khmun.
 
-.. figure:: images/project.png
+.. figure:: images/project2.png
 
 |
 
@@ -46,23 +46,21 @@ Getting Started
 Instructions for each plot
 --------------------------
 
-You will hand digitize polygons for the classes mentioned above. Every time you add a polygon using the proactive sampling tool, you will have to assign a class to it following a class scheme (number) that will be shown below. You will also have the option to add any relevant notes regarding that polygon.
+You will hand digitize polygons for the classes mentioned above. Every time you add a polygon using the proactive sampling tool, you will have to assign a class to it as shown below. You will also have the option to add any relevant notes regarding that polygon, and choose a confidence level.
 
-+---------------------+--------+
-|        Class        | Number |
-+---------------------+--------+
-| Broadleaf tree crop |    1   |
-+---------------------+--------+
-|      Palm crop      |    2   |
-+---------------------+--------+
-|      Shrub crop     |    3   |
-+---------------------+--------+
-|     Annual crop     |    4   |
-+---------------------+--------+
-|        Other        |    5   |
-+---------------------+--------+
++---------------------+--------------------------------------------------------------+
+|        Class        |                            Example                           |
++---------------------+--------------------------------------------------------------+
+| Broadleaf tree crop |        Cashew, Mango, Longan, Rambutan, Durian, Orange       |
++---------------------+--------------------------------------------------------------+
+|      Palm crop      | Coconut, Oil Palm, Other Palm including Banana and Date Palm |
++---------------------+--------------------------------------------------------------+
+|      Shrub crop     |                     Pepper, Other Shrubs                     |
++---------------------+--------------------------------------------------------------+
+|     Annual crop     |       Cassava, Maize, Bean, Rice, Sugarcane, Vegetables      |
++---------------------+--------------------------------------------------------------+
 
-**Note**: In CEO, the plot boundary is considered a "plot", and the polyons to be drawn within the plot are considered the "sample".
+You do not need to worry about the other Land covers (Settlement, Water body, Rubber, Forest cover, Grassland, Shrubland, Other), so do not collect polygons for these classes. We want to focus the time on the crops of interest only. 
 
 Follow these instructions:
 
@@ -108,32 +106,26 @@ Follow these instructions:
 
 |
 
-4. Once you are done with the first polygon, zoom out and find the centroid point of the plot. Hold CTRL and right-click the point to delete it.
-
-.. figure:: images/deletept.png
-
-|
-
-.. figure:: images/deletept2.png
-
-|
-
-5. Click on the question mark button (?) to go back to the survey question.
+4. Click on the question mark button (?) to go back to the survey question.
 
 .. figure:: images/surveyback.png
 
 |
 
-6. Click on the newly drawn polygon, add the class number to the answer, and then click the Save button right next to it.
+5. Click on the newly drawn polygon, and select the crop class.
 
-.. figure:: images/addclass.png
+.. figure:: images/addclass2.png
 
 |
 
 
-7. Add any notes that might be relevant. If none, you can add a "0" and click Save next to it.
+6. Add any notes that might be relevant. If none, you can add a "0" and click Save next to it. Also select your level of confidence (Low, Medium, or High)
 
-8. Go back to add more polygons and repeat the process.
+.. figure:: images/notesAndConf.png
+
+|
+
+7. Go back to editing mode to add more polygons and repeat the process.
 
 .. figure:: images/surveyquestions.png
 
@@ -148,13 +140,13 @@ Follow these instructions:
 
 |
 
-9. Once you are done with all the polygons in this plot, Click Save to proceed to the next plot.
+8. Once you are done with all the polygons in this plot, Click Save to proceed to the next plot.
 
-.. figure:: images/save.png
+.. figure:: images/save2.png
   
 |
 
-Make sure you cover all area of the plot, i.e., try to not leave any spaces between the polygons. You can start a new polygon by clicking on the vertice of an existing polygon (your mouse should be automatically "be attracted" to a vertice).
+Make sure you cover all area of the plot, i.e., try to not leave any spaces between the polygons (only if there are no third class in between the polygons/classes). You can start a new polygon by clicking on the vertice of an existing polygon (your mouse should be automatically "be attracted" to a vertice).
 
 .. figure:: images/newp1.png
   
@@ -168,6 +160,12 @@ Make sure you cover all area of the plot, i.e., try to not leave any spaces betw
   
 |
 
+If you see that a crop field goes beyond the boundary of the plot, it's okay to draw the polygon outwards as seen below:
+
+.. figure:: images/boundaryoutside.png
+
+|
+
 
 **Note**: If you wish to change or review previously analyzed plots, at the top of your project you can change the "Navigate Through" from "Unanalyzed plots" to "All analyzed plots". By clicking "Go to first plot", you will go through the plots you have already analyzed. You can change your answers but make sure you click Save at the bottom to save any changes.
 
@@ -175,7 +173,7 @@ Make sure you cover all area of the plot, i.e., try to not leave any spaces betw
   
 |
 
-.. figure:: images/analyzed2.png
+.. figure:: images/save2.png
   
 |
 
