@@ -1,2 +1,2 @@
 # cambodia-crops
-Reference data quality assessment
+Reference data collection and quality assessment
