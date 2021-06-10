@@ -119,7 +119,7 @@ Follow these instructions:
 |
 
 
-6. Add any notes that might be relevant. If none, you can add a "0" and click Save next to it. Also select your level of confidence (Low, Medium, or High)
+6. Click again on the polygon before proceding to the other questions. Add any notes that might be relevant. If none, you can add a "0" and click Save next to it. Click on the polygon again and select your level of confidence (Low, Medium, or High)
 
 .. figure:: images/notesAndConf.png
 
@@ -128,6 +128,12 @@ Follow these instructions:
 7. Go back to editing mode to add more polygons and repeat the process.
 
 .. figure:: images/surveyquestions.png
+
+|
+
+Steps 6 and 7 are demonstrated below:
+
+.. figure:: images/gif4.gif
 
 |
 

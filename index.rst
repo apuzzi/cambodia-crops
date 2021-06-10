@@ -25,7 +25,7 @@ Data assessment 5/6 - 5/19
 
 Additional data collection 6/10 - 6/24
 
-* Recording of the meeting on June 10
+* `Recording of the meeting on June 10 <https://drive.google.com/file/d/1Mj7rJiAesvJfoyDbypkLaeBwS3UNRvw1/view?usp=sharing>`_
 
 .. _Presentation May 6: https://docs.google.com/presentation/d/1ROu4DkCTiBMkWrUwn7xutNnebxnxIXSHE5N1jKo2xic/edit?usp=sharing
 .. _Recording: https://drive.google.com/file/d/1mmTngaRuPz8qM_wwhw3GuAqL-v8J4rdl/view?usp=sharing
