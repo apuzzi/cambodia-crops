@@ -173,7 +173,7 @@ If you see that a crop field goes beyond the boundary of the plot, it's okay to 
 |
 
 
-**Note**: If you wish to change or review previously analyzed plots, at the top of your project you can change the "Navigate Through" from "Unanalyzed plots" to "All analyzed plots". By clicking "Go to first plot", you will go through the plots you have already analyzed. You can change your answers but make sure you click Save at the bottom to save any changes.
+**Note**: If you wish to change or review previously analyzed plots, at the top of your project you can change the “Navigate Through” from “Unanalyzed plots” to “All analyzed plots”. With this option, by clicking the arrows you will go through the plots you have already analyzed. You can change your answers but make sure you click Save at the bottom to save any changes.
 
 .. figure:: images/analyzed.png
   
