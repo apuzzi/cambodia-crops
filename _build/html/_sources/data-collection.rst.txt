@@ -80,7 +80,7 @@ Follow these instructions:
   
 |
 
-3. Add a new polygon to the respective area by selecting "Polygon tool" and using your mouse to drawn it. Each click will place a vertice. 
+3. Add a new polygon to the respective area by selecting "Polygon tool" and using your mouse to draw it. Each click will place a vertice. 
 
 .. figure:: images/pencil3.png
 
